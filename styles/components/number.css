@@ -1,0 +1,70 @@
+.number{
+    position: relative;
+}
+.number-inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.number-item{
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.number-left{
+    width: 130px;
+    height: 130px;
+    border: 2px solid rgba(101, 137, 151, 0.33);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number-right{
+    width: 70%;
+}
+.number-right a{
+    color: #42b773;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.number-right p{
+    color: #658997;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+.number-right a:hover{
+    color: black;
+    text-decoration: underline;
+    transition: .3s;
+}
+.number-left h1{
+    color: rgba(101, 137, 151, 0.33);
+    font-size: 35px;
+}
+.number-item:hover .number-left{
+    background-color: #a9dc56;
+    border: 2px solid #a9dc56;
+    transition: .3s;
+}
+.number-item:hover .number-left h1{
+    color: white;
+    transition: .3s;
+}
+.number::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 68px;
+    width: 157px;
+    background-image: url("../../images/number-item.png");
+    margin: 0 auto;
+}

@@ -1,0 +1,93 @@
+.contacts{
+    background-color: #f5f5f6;
+    position: relative;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+}
+.contact-item{
+    padding: 15px 20px;
+}
+.contact-item a{
+    font-size: 22px;
+    font-weight: 500;
+    color: #42b773;
+    text-decoration: none;
+}
+.contact-item i{
+    font-size: 24px;
+    color: #42b773;
+}
+.contact-adress{
+    font-size: 14px;
+    text-align: center;
+    color: #42464f;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.contact-form input{
+    width: 30%;
+    height: 30px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #c3c6cd;
+}
+.contact-form textarea{
+    width: 100%;
+    height: 100px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: 1px solid#c3c6cd;
+    margin-bottom: 20px;
+}
+.contact-form button{
+    margin: 0 auto;
+    padding: 15px 70px;
+    background-color: #42b773;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: #42b773;
+}
+.contact-item:hover{
+    color: #42b773;
+    transition: .3s;
+}
+.contact-form input::placeholder{
+    color: #658997;
+}
+.contact-form textarea::placeholder{
+    color: #658997;
+}
+.contact-form button:hover{
+    background-color: #a9dc56;
+    transition: .3s;
+}
+.contact::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 68px;
+    width: 157px;
+    background-image: url("../../images/home-item.png");
+    margin: 0 auto;
+}
+footer p{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 11px;
+    color: #658997;
+    font-weight: 400;
+}
